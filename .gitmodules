@@ -1,12 +1,12 @@
 [submodule "cep"]
 	path = cep
-	url = https://github.com/TiagoMendesSilva/Studies.git
+	url = https://github.com/TiagoMendesSilva/studies.git
 [submodule "currency-converter"]
 	path = currency-converter
-	url = https://github.com/TiagoMendesSilva/Studies.git
+	url = https://github.com/TiagoMendesSilva/studies.git
 [submodule "my-app"]
 	path = my-app
-	url = https://github.com/TiagoMendesSilva/Studies.git
+	url = https://github.com/TiagoMendesSilva/studies.git
 [submodule "weekly-schedule"]
 	path = weekly-schedule
-	url = https://github.com/TiagoMendesSilva/Studies.git
+	url = https://github.com/TiagoMendesSilva/studies.git
