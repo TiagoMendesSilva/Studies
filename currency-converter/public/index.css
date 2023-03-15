@@ -1,0 +1,105 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.container{
+    width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+    padding-top: 20px;
+    background-color: aquamarine;
+    
+  } 
+  
+  .currency_container{
+    width: 320px;
+    height: 200px;
+    margin: 0 auto;
+    padding-top: 20px;
+    background-color: rgb(44, 143, 6);
+    
+    
+  } 
+  .currency{
+    width: 320px;
+    height: 100px;
+    
+    
+  }
+  .title {
+    width: 320px;
+    height: 70px;
+    margin: 0 auto;
+    padding-top: 5px;
+    background-color: blueviolet;
+    
+  }
+  .container h1 {
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px;
+    
+  }
+  
+  
+  
+  .form {
+    width: 320px;
+    height: 300px;
+    margin:0 auto;
+    padding-top: 10px;
+    background-color: blue;
+    
+  
+  }
+  
+  .form select {
+    width: 300px;
+    height: 45px;
+    margin-top: 5px;
+    margin-left: 10px;
+    padding-top: 20px;
+    border-radius: 5px;
+    appearance: none;
+   
+  }
+  
+  
+  .form input {
+    width: 300px;
+    height: 45px;
+    margin-top: 5px;
+    margin-left: 10px;
+    padding-top: 20px;
+    border-radius: 5px;
+  }
+  
+  .form label {
+    margin-left: 20px;
+    font-size: 15px;
+    color: #FFFFFF;
+    
+  }
+  
+  
+  .form button {
+    width: 300px;
+    height: 44px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 22px;
+    background-color: black;
+    font-size: 15px;
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+  
+  .form button:hover{
+    border-radius: 24px;
+    background-color: #201f1f;
+    font-size: 18px;
+    color: #FFFFFF;
+  }
+  
+  

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./index.css">
+        <title>Currency Converter</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="container-title">
+              <h1>Currency Converter</h1>
+            </div>
+            <div class="container-form">
+              <form>
+                  <label>
+                    <b>convert from</b>:
+                    <select>
+                      <option> R$ Real Brasileiro </option>
+                    </select>
+                    
+                  </label>
+                  <label>
+                    <b>to</b>:
+                    <select id='select-convert'>
+                      <option> US$ Dolar Americano </option>
+                      <option> € Euro </option>
+                    </select>
+                  </label>
+                  <label>
+                    <b>value</b>:
+                    <input id='inputValue'></input>
+                  </label>
+                  <button
+                  id='button-convert'
+                  type='submit'
+                  onChange={convertValues}
+                  >
+                    <b> to convert </b> 
+                  </button>
+              </form>
+
+            </div>
+
+            <div class="">
+              <div class="">
+                  <img src="assets/brasil.png"></img>
+                  <p id="currency-name"> Real</p>
+                  <p id="valor-real"> R$ 10.000,00</p>
+              </div>
+
+              <img src="assets/seta.png"></img>
+
+              <div class="">
+                  <img src="assets/usa.png" />
+                  <p id="currency-name"> Dolar </p>
+                  <p id="valor-moeda"> US$ 10.000,00</p>
+              </div>
+
+            </div>
+
+          </div>
+    </body>
+    <script src="./index.js"></script>
+</html>
